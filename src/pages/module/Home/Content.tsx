@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../../../components/Button.tsx";
-import Input from "../../../components/Input.tsx";
+import Button from "@/components/Button.tsx";
+import Input from "@/components/Input.tsx";
 
 const Content:React.FC = ()=>{
     return(
