@@ -1,0 +1,35 @@
+.container {
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -50px;
+}
+
+.ltr {
+    position: absolute;
+    box-sizing: border-box;
+    border: solid 4px transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    width: 120%;
+    height: 100%;
+    left: -10%;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), #121b2f;
+    background-clip: padding-box;
+}
+
+.ltr:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -4px;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(13, 18, 33, 1) 16%, rgb(97 95 255), rgb(79 57 246), rgb(97 95 255), rgba(13, 18, 33, 1) 84%)
+}

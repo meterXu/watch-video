@@ -1,0 +1,11 @@
+.input {
+    text-indent: 16px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    text-indent: 16px;
+}
